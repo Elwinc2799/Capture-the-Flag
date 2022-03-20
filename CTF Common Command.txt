@@ -1,0 +1,32 @@
+Stegno
+exiftool (check metadata, especially comment)
+binwalk (identify hidden files)
+jsteg (reveal image/text file in image)
+stegseek (crack file with password list)
+steghide (get info/crack)
+stegsolve.jar (apply layer)
+jstego-0.3.jar (reveal data from image)
+
+Password List
+rockyou.txt
+google any similar password text file
+
+Crack file
+john the ripper
+zip2john / 7z2john (convert into hash file before crack with password)
+
+Good links
+https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/steganography
+
+Strings the png file in terminal
+strings xxx.png | grep yyy
+*yyy is the flag format word
+
+https://aperisolve.fr/
+similar to stegsolve, check different layer and superimpose
+
+https://merricx.github.io/qrazybox/
+qr code resolver
+
+Spamimic decoder
+https://www.spammimic.com/decode.shtml
